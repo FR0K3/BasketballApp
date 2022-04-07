@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BasketballApp</string>
+    <string name="local_text">Local</string>
+    <string name="guest_text">Visitante</string>
+    <string name="minus_1">-1</string>
+    <string name="text_1">+1</string>
+    <string name="text_2">+2</string>
+    <string name="reset_text">R</string>
+    <string name="next_text"><![CDATA[>]]></string>
+    <string name="local_visitante">Local - Visitante</string>
+</resources>
