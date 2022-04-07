@@ -16,6 +16,7 @@ class ResultActivity : AppCompatActivity() {
         val bundle = intent.extras!!
         val localScore = bundle.getInt(SCORE_LOCAL_KEY).toString()
         val guestScore = bundle.getInt(SCORE_GUEST_KEY).toString()
+        Log.d("BUM", localScore)
 
         binding.scoreText.text = "$localScore - $guestScore"
 

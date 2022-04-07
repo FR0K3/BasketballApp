@@ -6,8 +6,8 @@
     <data>
 
         <variable
-            name="MainActivity"
-            type="com.rodriguez.basketballapp.MainActivity" />
+            name="viewModel"
+            type="com.rodriguez.basketballapp.MainViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -33,7 +33,7 @@
             android:id="@+id/score_local_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="0"
+            android:text="@{viewModel.scoreLocal}"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Headline1"
             android:textColor="@color/black"
             app:layout_constraintEnd_toEndOf="@+id/textView"
@@ -68,7 +68,7 @@
             android:id="@+id/score_guest_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="0"
+            android:text="@{viewModel.scoreGuest}"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Headline1"
             android:textColor="@color/black"
             app:layout_constraintBottom_toTopOf="@+id/textView2"
